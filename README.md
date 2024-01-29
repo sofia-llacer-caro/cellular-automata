@@ -13,3 +13,6 @@ Cellular automata (CA) are numerical models that serve to replicate spatial dyna
 - Capabilities to study a lot of problems within science and further
 
 - In the present study, we will consider a two-dimensional cellular automaton with 3 states.
+
+
+![Test](https://github.com/sofia-llacer-caro/cellular-automata/blob/main/cellular_automaton.gif)

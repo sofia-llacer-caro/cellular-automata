@@ -91,13 +91,16 @@ def update(frameNum, img, grid, text, rows, cols):
 
 
 # Visualization setup
+
 fig, ax = plt.subplots()
 cmap = plt.get_cmap('viridis', 3)
 img = ax.imshow(initial_state, cmap=cmap, interpolation='nearest')
 
 text = ax.text(0.5, -0.1, '', transform=ax.transAxes, ha='center', va='center')
+
 ani = animation.FuncAnimation(fig, update, fargs=(img, initial_state, text, rows, cols),
                               frames=steps+1, interval=500, save_count=steps)
-
+'''
 ani.save('cellular_automaton.gif', writer='imagemagick', fps=2)
+'''
 plt.show()
